@@ -2,8 +2,9 @@ const axios = require("axios");
 
 const getOutsideWeather = async (req, res) => {
   const { lat, lon } = req.query;
+  const token = process.env.WEATHER_TOKEN;
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=5541e5f9433e803b10a16a888654e95a`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_TOKEN}`;
 
   try {
     const response = await axios.get(url);
