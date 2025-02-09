@@ -3,8 +3,8 @@
 # Getting Started
 
 1. Clone the repository:
-   - git clone git@github.com:Kethar11/EPITABMS-Backend.git
-   - cd EPITABMS-Backend
+   - git clone
+   - cd BMS
    - Copy .env.example
    - Create .env file in the project root
 2. Install dependencies:
@@ -13,12 +13,9 @@
    - npm start
 4. SuperAdmin will be automatically created:
 
-- email: 'dhamiruchi5@gmail.com'
-- password: core5234
-
 # How to run test case
 
-- cd EPITABMS-Backend
+- cd BMS
 - npm install
 - npm test
 
